@@ -1,0 +1,115 @@
+# Quick Decision Maker Demo
+print("=== Quick Decision Maker ===")
+# Get user input
+age = int(input("Enter your age: "))
+grade = float(input("Enter your grade (0-100): "))
+is_weekend = input("Is it weekend? (yes/no): ").lower()
+# Traditional if-else vs Conditional expression
+# Example 1: Can vote?
+# Traditional
+if age >= 18:
+    can_vote = "Yes"
+else:
+    can_vote = "No"
+print(f"Can vote (traditional): {can_vote}")
+# Conditional expression
+can_vote = "Yes" if age >= 18 else "No"
+print(f"Can vote (ternary): {can_vote}")
+# Example 2: Pass/Fail
+result = "PASS" if grade >= 60 else "FAIL"
+print(f"Grade result: {result}")
+# Example 3: Ticket price
+price = 5 if age <= 12 else 10
+print(f"Movie ticket price: ${price}")
+# Example 4: Store hours message
+store_status = "OPEN - Come visit!" if is_weekend == "yes" else "CLOSED - See you Monday!"
+print(f"Store status: {store_status}")
+# Example 5: Grade letter (simple version)
+letter = "A" if grade >= 90 else "B" if grade >= 80 else "Other"
+print(f"Grade category: {letter}")
+# You can use it in print statements directly
+print(f"You are {'an adult' if age >= 18 else 'a minor'}")
+# Setting defaults
+discount = 0.2 if age >= 65 else 0.1 if age <= 12 else 0
+print(f"Your discount: {discount * 100}%")
+
+
+# TODO: Complete this program
+day = input("Enter day of week: ").lower()
+# Use conditional expression to set day_type
+# Monday-Friday = "weekday"
+# Saturday-Sunday = "weekend"
+if day == "monday" or "tuesday" or "wednesday" or "thursday" or "friday":
+    day_type = "weekday"
+else:
+    day = "weekend"
+
+print(f"It's a {day_type}")
+
+'''
+practice exercise 3-a
+'''
+# TODO: Complete this program
+is_member = input("Are you a member? (yes/no): ").lower() == "yes"
+has_invitation = input("Do you have an invitation? (yes/no): ").lower() == "yes"
+# Create truth table output showing:
+# - Can attend with AND (need both)
+# - Can attend with OR (need either)
+# - Is excluded (has neither)
+can_attend_and = is_member and has_invitation
+can_attend_or = is_member or has_invitation
+is_excluded = not (is_member or has_invitation)
+
+print("\n=== Event Access ===")
+print("Member:", is_member)
+print("Invitation:", has_invitation)
+print("Can attend (AND rule)?", can_attend_and)
+print("Can attend (OR rule)?", can_attend_or)
+print("Excluded?", is_excluded)
+
+'''
+practice exercise 3-b
+'''
+# TODO: Complete this program
+gpa_good = float(input("Enter GPA: ")) >= 3.5
+attendance_good = float(input("Enter attendance %: ")) >= 90
+volunteer = input("Did volunteer work? (yes/no): ").lower() == "yes"
+# Determine:
+# 1. Full scholarship (all three true)
+# 2. Partial scholarship (any two true)
+# 3. No scholarship (one or none true)
+criteria_met = sum([gpa_good, attendance_good, volunteer])
+if criteria_met == 3:
+    print("Congrats! You earn a full scholarship.")
+elif criteria_met == 2:
+    print("Congrats! You earn a partial scholarship.")
+else:
+    print("You did not earn a scholarship.")
+# Show the logic used for each decision
+'''
+practice exercise 3-c
+'''
+# TODO: Complete this program
+has_password = input("Correct password? (yes/no): ").lower() == "yes"
+has_fingerprint = input("Fingerprint match? (yes/no): ").lower() == "yes"
+has_pin = input("Correct PIN? (yes/no): ").lower() == "yes"
+is_trusted_location = input("Trusted location? (yes/no): ").lower() == "yes"
+# Implement these security rules:
+# 1. High security: needs password AND (fingerprint OR pin)
+# 2. Medium security: needs any two factors
+# 3. Low security: needs one factor IF trusted location
+# 4. Denied: doesn't meet any security level
+# Show which rule was applied
+
+
+# TODO: Complete this program
+phone = input("Enter phone (10 digits): ")
+# Validate:
+# 1. Contains only digits
+# 2. Exactly 10 digits long
+# 3. Doesn't start with 0 or 1
+# Provide specific error messages
+if not phone.isdigit():
+    print("error")
+elif len(phone) != 10:
+    
