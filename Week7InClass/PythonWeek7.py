@@ -204,3 +204,4 @@ if tool not in inventory:
     print(f"Added {tool}")
 else:
     print(f"{tool} already in inventory")
+    
