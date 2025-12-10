@@ -1,0 +1,18 @@
+Part 1:                 54 out of 60
+Part 2:                 85 out of 50
+Grading Rubrics:
+Problem 1:              25 out of 25
+    Initialize count     5 out of 5 
+    For loop             10 out of 10
+    If statement         5 out of 5
+    count increment      5 out of 5
+
+Problem 2:              35 out of 25
+    If condition:       10 out of 10
+    elif condition      10 out of 10
+    else                5 out of 5
+    count_age_groups    10 bonus point
+
+Problem 3:              25 out of 25
+    lower case          10 out of 10
+    reverse word        15 out of 15
