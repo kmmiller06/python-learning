@@ -1,0 +1,30 @@
+Your grades for final exam: 
+    54 out of 60 for Part I and 85 out of 50 for Part II, altogether 139 out of 110. 
+    So that is 31.6% out of 25% for the final exam.
+
+Your grades for mid term: 
+    28 out of 30 for Part I and 33 out of 35 for Part II, so you got 61 out of 65. 
+    So that is 23.5% out of 25% for midterm. 
+
+Your score for Quiz 1:
+    23.5 out of 30
+Your score for Quiz 2:
+    130.5 out of 130
+That is 10% out of 10% for Quizzes.
+
+Your attendance is 100.0%, and you submitted 12 out of 27 of your lab work. 
+That is 14.4% out of 10% for your lab participation.
+
+Your submitted 8 out of 9 homework assignments.  That is 19.7% for homework assignments.
+    Homework 1: 100 out of 100
+    Homework 2: 100 out of 100
+    Homework 4: 125 out of 100
+    Homework 5: 130 out of 110
+    Homework 7: 75 out of 75
+    Homework 8: 130 out of 80
+    Homework 9: 100 out of 100
+    Homework 10: 80 out of 100
+
+Altogether, you got 99.2% for CS1.
+
+Your Grade for this course is A.
